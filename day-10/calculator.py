@@ -1,19 +1,20 @@
+# Add Function
 def add(n1, n2):
     return n1 + n2
 
-
+# Subtract Function
 def subtract(n1, n2):
     return n1 - n2
 
-
+# Multiply Function
 def multiply(n1, n2):
     return n1 * n2
 
-
+# Divide Function
 def divide(n1, n2):
     return n1 / n2
 
-
+# Operators Dictionary
 mathematical_operation = {
     '+': add,
     '-': subtract,
@@ -22,7 +23,7 @@ mathematical_operation = {
 
 }
 
-
+# Calculator Function
 def calculator():
     num1 = int(input("What is the first number?:"))
     for symbol in mathematical_operation:
