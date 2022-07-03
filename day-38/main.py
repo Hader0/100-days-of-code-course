@@ -12,6 +12,7 @@ headers={
     "x-app-id":APP_ID,
     "x-app-key":API_KEY,
 }
+
 exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sheet_endpoint="https://api.sheety.co/e8c5b0b1f35ffc408b70eccca67aba97/workoutTracking/workouts"
 
